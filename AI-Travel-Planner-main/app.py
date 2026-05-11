@@ -7,7 +7,7 @@ import random
 import re
 
 # Set up API key
-GEMINI_API_KEY = "AIzaSyDPqddRi-U9PM2p2ZIPappjnwVtjNSZDoM"
+GEMINI_API_KEY = "YOUR_API_KEY"
 
 st.set_page_config(page_title="AI Travel Planner", page_icon="✈️", layout="wide")
 st.title("🌍 AI Travel Planner ✈️")
