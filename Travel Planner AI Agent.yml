@@ -502,7 +502,7 @@ workflow:
       width: 242
     - data:
         code: "import requests\n\ndef main(location: str) -> dict:\n    api_key =\
-          \ \"46d0f860e7a4ba33a2cf359a1f6ee4ec\"\n    url = f\"http://api.openweathermap.org/data/2.5/weather?q={location}&appid={api_key}&units=metric\"\
+          \ \"YOUR_API_KEY\"\n    url = f\"http://api.openweathermap.org/data/2.5/weather?q={location}&appid={api_key}&units=metric\"\
           \n    \n    try:\n        response = requests.get(url)\n        data = response.json()\n\
           \        \n        if data.get(\"cod\") != 200:\n            return {\"\
           weather\": \"Weather data unavailable for this location\"}\n        \n \
